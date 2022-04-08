@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useLayoutEffect, useState} from 'react';
+import React, {useCallback, useLayoutEffect} from 'react';
 import './App.css';
 
 function App() {
@@ -40,36 +40,6 @@ function App() {
       window.google?.accounts?.id.prompt(); // also display the One Tap dialog
     }
   }, [])
-
-  // useEffect(() => {
-  //   //@ts-ignore
-  //   if (typeof window.google === 'undefined') {
-  //     console.log('google is undefined'+n.toString())
-  //     setN(n + 1)
-  //   } else {
-  //     console.log('google is defined')
-  //   //@ts-ignore
-  //   // console.log('useEffect',window.google)
-  //   //@ts-ignore
-  //   window.google?.accounts?.id.initialize({
-  //     client_id: "559756290278-9v1ngbvivap03i80qntgsin48ggmj5pc.apps.googleusercontent.com",
-  //     login_uri: "https://metaplasia.io",
-  //     ux_mode: "popup",
-  //     context: "signin",
-  //     callback: function (e: any){
-  //       console.log(e)
-  //     }
-  //   });
-  //   //@ts-ignore
-  //   window.google?.accounts?.id.renderButton(
-  //       document.getElementById("buttonDiv"),
-  //       { theme: "filled_black", size: "large",shape: "circle" }  // customization attributes
-  //   );
-  //   //@ts-ignore
-  //   window.google?.accounts?.id.prompt(); // also display the One Tap dialog
-  //   }
-  // }, [n])
-
   return (
     <div className="App">
       <header className="App-header">
