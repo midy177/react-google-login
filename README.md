@@ -1,6 +1,11 @@
-# react encapsulates google authorization login
+# The method of packaging the native JavaScript google authorization login into a react component
 
-Sign In With Google JavaScript API reference:[google sign in](https://developers.google.com/identity/sign-in/web/reference)
+
+## about google sign in（react encapsulates google authorization login）
+
+Sign In With Google JavaScript API reference [google sign in](https://developers.google.com/identity/sign-in/web/reference)
+
+## about creat react app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
